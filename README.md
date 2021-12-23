@@ -63,7 +63,7 @@ first[3] = first[3] * adv_coefficient
 ```
 #### Web app using instruction
 First you need to organize the backend and frontend file into such directory in a project:  
--mysite/
+-mysite/  
       -__init__.py  
   -asgi.py  
   -lr.sav  
