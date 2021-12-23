@@ -24,6 +24,8 @@ Stored in the algorithm_code folder, see data descriptions in README.md under th
 
 ## Quick Start
 
+### algorithm_code folder
+
 The machine learning models code locates in the algorithm_code folder, the web UI code locates in the frontend_code folder. For the algorithm code, there are two kinds files with different prefixes shown as below:
 
 #### Files Naming and corresponding Code
@@ -61,36 +63,15 @@ In preprocess() function, commenting these tow rows means not considering the Po
 first[1] = first[1] * adv_coefficient
 first[3] = first[3] * adv_coefficient
 ```
-#### Web app using instruction
-First you need to organize the backend and frontend file into such directory in a project:  
--mysite/  
-      -__init__.py  
-  -asgi.py  
-  -lr.sav  
-  -setting.py  
-  -urls.py  
-  -views.py  
-  -wsgi.py  
--static/  
-  -css/  
-    -style.css  
-  -image/  
-    -ps.png  
-    -ps1.png  
-    -question-mark.jpg  
--templates/  
-  -index.html  
-  -refresh.html  
-  -refresh1.html  
-  -refresh2.html  
-  -result.html  
-  -test.html  
--db.sqlite3  
--manage.py  
+### Web app using instruction
+Run the command to start the server:
 
-Then you run the command :  
-python manage.py runserver  
+```
+python manage.py runserver
+```
+
 An address should appear in your terminal, go to the address in your local machine's browser should take you to the web interface.  
+
 There you can start playing around with the web app.
 
 ## Contact us
